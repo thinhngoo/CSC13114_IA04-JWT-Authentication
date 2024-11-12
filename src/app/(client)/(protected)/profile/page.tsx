@@ -7,7 +7,10 @@ import { useAuthentication } from '@/providers/Authentication.provider';
 
 export default function ProfilePage() {
   const { user, token } = useAuthentication();
-  const [profile, setProfile] = useState<any>(null);
+  const [profile, setProfile] = useState<{
+    username: string;
+    email: string;
+  }>();
 
   useEffect(() => {
     async function fetchProfile() {
@@ -20,9 +23,7 @@ export default function ProfilePage() {
       setProfile(data);
     }
     fetchProfile();
-  }, [user]);
-
-  console.log(profile);
+  }, [token]);
 
   if (!user) {
     return null;

@@ -33,7 +33,7 @@ export default function AuthenticationProvider({
 
   useEffect(() => {
     if (!user && pathname === '/profile') router.push('/');
-  }, [user, router]);
+  }, [user, router, pathname]);
 
   return (
     <AuthenticationContext.Provider

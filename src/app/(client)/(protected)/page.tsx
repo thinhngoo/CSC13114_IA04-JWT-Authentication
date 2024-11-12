@@ -387,11 +387,7 @@ const Testimonials = () => {
               that hits some of your benefits from one of your popular customer.
             </p>
 
-            <Avatar
-              image="https://placehold.co/40x40"
-              name="Sarah Steiner"
-              title="VP Sales at Google"
-            />
+            <Avatar name="Sarah Steiner" title="VP Sales at Google" />
           </div>
         </div>
         <div className="">
@@ -401,11 +397,7 @@ const Testimonials = () => {
               to keep it short and simple.
             </p>
 
-            <Avatar
-              image="https://placehold.co/40x40"
-              name="Dylan Ambrose"
-              title="Lead marketer at Netflix"
-            />
+            <Avatar name="Dylan Ambrose" title="Lead marketer at Netflix" />
           </div>
         </div>
         <div className="">
@@ -415,11 +407,7 @@ const Testimonials = () => {
               seen. I would use this for anything.
             </p>
 
-            <Avatar
-              image="https://placehold.co/40x40"
-              name="Gabrielle Winn"
-              title="Co-founder of Acme Inc"
-            />
+            <Avatar name="Gabrielle Winn" title="Co-founder of Acme Inc" />
           </div>
         </div>
       </div>
@@ -428,7 +416,6 @@ const Testimonials = () => {
 };
 
 interface AvatarProps {
-  image: any;
   name: string;
   title: string;
 }
