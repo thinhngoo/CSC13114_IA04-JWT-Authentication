@@ -1,6 +1,6 @@
 ## General information
 
-- **Public URL**: https://ia04-deployment.vercel.app/
+- **Public URL**: https://ia04-deployment-bs1q.vercel.app
 - **Tech**:
   - Framework: NextJS (Backend + Frontend)
   - Database: MongoDB (with mongoose ODM)

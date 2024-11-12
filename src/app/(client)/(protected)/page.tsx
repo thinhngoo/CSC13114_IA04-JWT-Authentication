@@ -98,7 +98,7 @@ function Hero() {
                 Get Started
               </Link>
               <a
-                href="https://github.com/web3templates/nextly-template/"
+                href="https://github.com/thinhngoo/CSC13114_IA04-JWT-Authentication"
                 target="_blank"
                 rel="noopener"
                 className="flex items-center space-x-2 text-gray-500 dark:text-gray-400 hover:opacity-70 transition-opacity duration-300"
@@ -457,7 +457,7 @@ const Cta = () => {
         </div>
         <div className="flex-shrink-0 w-full text-center lg:w-auto">
           <a
-            href="https://github.com/web3templates"
+            href="https://github.com/thinhngoo/CSC13114_IA04-JWT-Authentication"
             target="_blank"
             rel="noopener"
             className="inline-block py-3 mx-auto text-lg font-medium text-center text-indigo-600 bg-white rounded-md px-7 lg:px-10 lg:py-5 "
